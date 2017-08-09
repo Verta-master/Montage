@@ -9,14 +9,26 @@
   &--bg {
     background-color: @blue-bg;
   }
+  
+  &--contacts {
+    margin-bottom: 77px;
+  }
 }
 
 .key__img {
+  width: 815px;
+  height: auto;
   border: 5px solid #fff;
   border-radius: 0 20px 20px 0;
   
   &--bg {
     border-color: @blue-bg;
+    width: 820px;
+    height: 500px;
+  }
+  
+  &--remote {
+    height: 320px;
   }
 }
 
@@ -25,17 +37,24 @@
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
-  padding: 30px;
+  padding-left: 30px;
+  padding-bottom: 28px;
+  padding-top: 25px;
   padding-right: 50px;
-  max-width: 425px;
+  max-width: 420px;
   border-right: 1px solid @border;
   
   &--bg {
     border-right: none;
+    padding-top: 30px;
   }
   
   &--address {
     padding: 0;
+  }
+  
+  &--remote {
+    padding-top: 12px;
   }
 }
 
@@ -44,4 +63,12 @@
   color: @blue;
   font-weight: 600;
   margin-left: 15px;
+}
+
+.key__point {
+  margin-bottom: 9px;
+}
+
+.key__text {
+  margin-bottom: 20px;
 }

@@ -15,12 +15,17 @@
   width: 33%;
   padding-left: 30px;
   padding-right: 70px;
-  padding-bottom: 26px;
-  border-right: 1px solid @border;
+  padding-bottom: 13px;
+  padding-top: 5px;
   
   &:first-child .title-h4--pic::before {
     width: 20px;
     background-position: -5px -5px;
+  }
+  
+  &:nth-child(2) {
+    border-right: 1px solid @border;
+    border-left: 1px solid @border;
   }
   
   &:nth-child(2) .title-h4--pic::before {
@@ -29,10 +34,10 @@
   }
   
   &:last-child {
-    border-right: none;
     
     .title-h4--pic::before {
       width: 22px;
+      left: 0;
       background-position: -67px -5px;
     }
   }
@@ -41,5 +46,6 @@
 .why__bottom {
   padding-left: 30px;
   padding-right: 30px;
-  padding-bottom: 45px;
+  padding-bottom: 50px;
+  padding-top: 7px;
 }

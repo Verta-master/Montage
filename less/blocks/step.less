@@ -1,6 +1,8 @@
 .step__block {
   width: 480px;
-  padding: 50px;
+  padding: 48px;
+  padding-top: 45px;
+  padding-right: 65px;
   margin-bottom: 50px;
   background-color: #fff;
   border-radius: 20px;
@@ -18,6 +20,8 @@
 }
 
 .step__point {
+  margin-bottom: 21px;
+  
   b {
     color: @dark;
     font-weight: 600;
@@ -26,17 +30,22 @@
 
 .step__item {
   padding-left: 30px;
+  padding-bottom: 20px;
   position: relative;
   
   &::before {
     content: "";
     position: absolute;
-    top: 7px;
+    top: 10px;
     left: 12px;
     width: 5px;
     height: 5px;
     border-radius: 50%;
     background-color: @blue;
+  }
+  
+  &:last-child {
+    padding-bottom: 7px;
   }
 }
 
@@ -44,5 +53,5 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 1650px;
+  height: 1835px;
 }
