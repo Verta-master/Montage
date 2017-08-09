@@ -1,5 +1,6 @@
 .feedback {
   padding: 30px;
+  padding-bottom: 0;
 }
 
 .feedback__title {
@@ -24,4 +25,8 @@
   &:last-of-type {
     margin-bottom: 30px;
   }
+}
+
+.feedback__input:focus::placeholder {
+  opacity: 0;
 }
