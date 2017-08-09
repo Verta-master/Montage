@@ -781,6 +781,7 @@ textarea {
 .benefits__list {
   width: 600px;
   min-height: 600px;
+  max-height: 600px;
   padding: 0;
   background-color: #fff;
   border-radius: 20px;
