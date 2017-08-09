@@ -37,6 +37,10 @@ ul {
   margin: 0;
   padding: 0;
 }
+ol {
+  margin: 0;
+  padding: 0;
+}
 button,
 input {
   border: none;
@@ -422,6 +426,7 @@ textarea {
   position: fixed;
   left: 0;
   top: 0;
+  z-index: 1000;
 }
 .promo {
   width: 100%;
@@ -465,6 +470,7 @@ textarea {
   border-radius: 15px;
   width: 182px;
   min-height: 31px;
+  cursor: pointer;
 }
 .btn--link {
   background-color: #333333;
@@ -475,6 +481,17 @@ textarea {
 }
 .btn--link:hover {
   background-color: #000;
+}
+.btn--grey {
+  background-color: #fafafa;
+  border: 1px solid #f2f2f2;
+  width: 168px;
+  max-height: 28px;
+  font-weight: 600;
+  color: #b8b8b8;
+}
+.btn--grey:hover {
+  color: #000;
 }
 .wrapper {
   width: 1230px;
@@ -561,4 +578,42 @@ textarea {
   -ms-flex-align: center;
       align-items: center;
   margin-top: 40px;
+}
+.key__item {
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 3px 9.7px 0.3px rgba(0, 0, 0, 0.03);
+}
+.key__img {
+  border: 5px solid #fff;
+  border-radius: 0 20px 20px 0;
+}
+.key__block {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  padding: 30px;
+  padding-right: 50px;
+  border-right: 1px solid #f2f2f2;
+}
+.key__num {
+  width: 100%;
+  color: #0d69af;
+  font-weight: 600;
+  margin-left: 15px;
+}
+.title-h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0;
+  color: #333333;
 }
