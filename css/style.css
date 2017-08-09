@@ -496,7 +496,8 @@ textarea {
 }
 .btn--grey:hover,
 .btn--step:hover {
-  color: #000;
+  color: #fff;
+  background-color: #0d69af;
 }
 .btn--step {
   max-width: 350px;
@@ -662,6 +663,8 @@ textarea {
 }
 .key__block--address {
   padding: 0;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
 }
 .key__block--remote {
   padding-top: 12px;
@@ -769,7 +772,7 @@ textarea {
 }
 .benefits__block {
   background-color: #d20000;
-  border-radius: 20px;
+  border-radius: 22px;
   box-shadow: 0px 3px 9.7px 0.3px rgba(0, 0, 0, 0.03);
 }
 .benefits__block--blue {
@@ -825,6 +828,7 @@ textarea {
   background-position: -67px -5px;
 }
 .map {
+  max-height: 475px;
   border: 5px solid #fff;
   border-radius: 0 20px 20px 0;
   overflow: hidden;
@@ -869,6 +873,7 @@ textarea {
 }
 .feedback {
   padding: 30px;
+  padding-bottom: 0;
 }
 .feedback__title {
   font-size: 16px;
@@ -890,6 +895,15 @@ textarea {
 }
 .feedback__input:last-of-type {
   margin-bottom: 30px;
+}
+.feedback__input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+.feedback__input:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+.feedback__input:focus::placeholder {
+  opacity: 0;
 }
 .footer {
   width: 100%;
@@ -1028,6 +1042,15 @@ textarea {
   border: 1px solid #f2f2f2;
   border-radius: 17px;
 }
+.modal__input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+.modal__input:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+.modal__input:focus::placeholder {
+  opacity: 0;
+}
 .modal__text {
   font-size: 10px;
   line-height: 16px;
@@ -1036,6 +1059,7 @@ textarea {
 .modal__text a {
   display: block;
   font-size: 13px;
+  font-weight: 600;
   line-height: 30px;
   color: #0d69af;
   text-decoration: underline;
