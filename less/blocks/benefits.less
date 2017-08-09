@@ -1,0 +1,66 @@
+.benefits__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefits__block {
+  background-color: #d20000;
+  border-radius: 20px;
+  box-shadow: 0px 3px 9.7px 0.3px rgba(0, 0, 0, 0.03);
+  
+  &--blue {
+    background-color: @blue;
+  }
+}
+
+.benefits__title {
+  color: #fff;
+  font-size: 36px;
+  margin: 0;
+  padding: 30px;
+}
+
+.benefits__list {
+  width: 600px;
+  min-height: 600px;
+  padding: 30px 0 0 0;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.benefits__item {
+  padding: 0 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid @border;
+  
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.benefits__name {
+  color: @dark;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 600;
+  padding-left: 50px;
+  position: relative;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 22px;
+    height: 20px;
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    background-position: -35px -5px;
+    display: block;
+  }
+  
+  &--plus::before {
+    top: 0;
+    background-position: -67px -5px;
+  }
+}
