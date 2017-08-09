@@ -1,13 +1,15 @@
 .btn {
   border-radius: 15px;
-  width: 182px;
+  max-width: 182px;
   min-height: 31px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 600;
   cursor: pointer;
   
   &--link {
     background-color: @dark;
     color: #fff;
-    font-weight: 600;
     text-align: center;
     line-height: 31px;
   }
@@ -16,16 +18,30 @@
     background-color: #000;
   }
     
-  &--grey {
+  &--grey,
+  &--step {
     background-color: #fafafa;
     border: 1px solid @border;
-    width: 168px;
+    max-width: 182px;
     max-height: 28px;
-    font-weight: 600;
     color: #b8b8b8;
   }
     
-  &--grey:hover {
+  &--grey:hover,
+  &--step:hover {
     color: #000;
+  }
+  
+  &--step {
+    max-width: 343px;
+  }
+    
+  &--white {
+    background-color: #fff;
+    color: @blue-bg;
+    
+    &:hover {
+      color: #1e3c78;
+    }
   }
 }

@@ -1,14 +1,23 @@
 .key__item {
   display: flex;
+  justify-content: space-between;
   margin-bottom: 10px;
-  background-color: #fff;
   border-radius: 20px;
+  background-color: #fff;
   box-shadow: 0px 3px 9.7px 0.3px rgba(0, 0, 0, 0.03);
+  
+  &--bg {
+    background-color: @blue-bg;
+  }
 }
 
 .key__img {
   border: 5px solid #fff;
   border-radius: 0 20px 20px 0;
+  
+  &--bg {
+    border-color: @blue-bg;
+  }
 }
 
 .key__block {
@@ -18,7 +27,12 @@
   justify-content: space-between;
   padding: 30px;
   padding-right: 50px;
+  max-width: 425px;
   border-right: 1px solid @border;
+  
+  &--bg {
+    border-right: none;
+  }
 }
 
 .key__num {
