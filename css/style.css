@@ -2,19 +2,19 @@
   font-weight: 400;
   font-family: "GothamPro";
   font-style: normal;
-  src: url("../fonts/GothamPro.woff");
+  src: url("../fonts/GothamProRegular.ttf");
 }
 @font-face {
   font-weight: 600;
   font-family: "GothamPro";
   font-style: normal;
-  src: url("../fonts/GothamPro-Medium.woff");
+  src: url("../fonts/GothamProMedium.ttf");
 }
 @font-face {
   font-weight: 700;
   font-family: "GothamPro";
   font-style: normal;
-  src: url("../fonts/GothamPro-Bold.woff");
+  src: url("../fonts/GothamProBold.ttf");
 }
 body {
   font-family: "GothamPro", "Arial", sans-serif;
@@ -472,8 +472,8 @@ textarea {
   border-radius: 15px;
   max-width: 182px;
   min-height: 31px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 26px;
+  padding-right: 26px;
   font-weight: 600;
   cursor: pointer;
 }
@@ -499,7 +499,7 @@ textarea {
   color: #000;
 }
 .btn--step {
-  max-width: 343px;
+  max-width: 350px;
   margin-top: 7px;
 }
 .btn--white {
@@ -513,6 +513,8 @@ textarea {
 .btn--blue {
   background-color: #0d69af;
   color: #fff;
+  padding-left: 28px;
+  padding-right: 28px;
 }
 .btn--blue:hover {
   background-color: #095b99;
@@ -526,13 +528,13 @@ textarea {
   font-weight: 400;
   line-height: 48px;
   color: #333333;
-  margin-top: 73px;
+  margin-top: 74px;
   margin-bottom: 28px;
   padding-left: 25px;
 }
 .title-h2 span {
   color: #0d69af;
-  padding-bottom: 3px;
+  padding-bottom: 4px;
   border-bottom: 2px solid #0d69af;
 }
 .why__wrap {
@@ -552,7 +554,7 @@ textarea {
 .why__item {
   width: 33%;
   padding-left: 30px;
-  padding-right: 70px;
+  padding-right: 30px;
   padding-bottom: 13px;
   padding-top: 5px;
 }
@@ -622,7 +624,7 @@ textarea {
   background-color: #1a84c8;
 }
 .key__item--contacts {
-  margin-bottom: 77px;
+  margin-bottom: 81px;
 }
 .key__img {
   width: 815px;
@@ -650,7 +652,7 @@ textarea {
   padding-left: 30px;
   padding-bottom: 28px;
   padding-top: 25px;
-  padding-right: 50px;
+  padding-right: 30px;
   max-width: 420px;
   border-right: 1px solid #f2f2f2;
 }
@@ -663,6 +665,7 @@ textarea {
 }
 .key__block--remote {
   padding-top: 12px;
+  padding-right: 50px;
 }
 .key__num {
   width: 100%;
@@ -701,8 +704,8 @@ textarea {
 .step__block {
   width: 480px;
   padding: 48px;
-  padding-top: 45px;
-  padding-right: 65px;
+  padding-top: 42px;
+  padding-right: 30px;
   margin-bottom: 50px;
   background-color: #fff;
   border-radius: 20px;
@@ -748,7 +751,7 @@ textarea {
       flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  height: 1835px;
+  height: 1830px;
 }
 .text--white {
   color: #fff;
@@ -789,7 +792,7 @@ textarea {
 .benefits__item {
   padding-left: 30px;
   padding-top: 8px;
-  padding-right: 40px;
+  padding-right: 15px;
   padding-bottom: 12px;
   border-bottom: 1px solid #f2f2f2;
 }
@@ -836,7 +839,8 @@ textarea {
 .address {
   display: -ms-flexbox;
   display: flex;
-  padding: 30px;
+  padding-left: 30px;
+  padding-right: 20px;
   padding-top: 25px;
   padding-bottom: 45px;
   border-bottom: 1px solid #f2f2f2;
@@ -851,7 +855,7 @@ textarea {
 }
 .address__part span {
   display: block;
-  margin: 25px 0;
+  margin: 25px 0 20px 0;
 }
 .address__part:first-of-type {
   padding-right: 40px;
