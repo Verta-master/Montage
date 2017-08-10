@@ -68,3 +68,37 @@
     background-position: -67px -5px;
   }
 }
+
+//------------Tablet-----------
+@media @tablet {
+  .benefits__wrap {
+    flex-direction: column;
+  }
+  
+  .benefits__list {
+    width: 100%;
+    min-height: auto;
+    max-height: none;
+  }
+  
+  .benefits__block {
+    margin-bottom: 20px;
+    
+    &--blue {
+      margin-bottom: 0;
+    }
+  }
+}
+
+//-----------Mobile-320--------
+@media @mobile-320 {
+  .benefits__title {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+  
+  .benefits__item {
+    padding: 5px 10px;
+  }
+}

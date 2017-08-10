@@ -1,6 +1,5 @@
 .promo {
   width: 100%;
-  min-height: 800px;
   background-color: #cacaca;
   background-image: url(../img/image-background.jpg);
   background-repeat: no-repeat;
@@ -37,4 +36,37 @@
   max-width: 350px;
   margin-top: 0;
   margin-bottom: 20px;
+}
+
+//------------Tablet-----------
+@media @tablet {
+  .promo__wrap {
+    height: 600px;
+    width: @max-tablet;
+  }
+}
+
+//-----------Mobile-480--------
+@media @mobile {
+  .promo__h1 {
+    width: 100%;
+    font-size: 32px;
+  }
+  
+  .promo__wrap {
+    width: @max-mobile;
+  }
+}
+
+//-----------Mobile-320--------
+@media @mobile-320 {
+  .promo__wrap {
+    width: @max-320;
+    padding-left: 0;
+  }
+  
+  .promo__h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
 }

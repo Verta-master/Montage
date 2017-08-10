@@ -31,3 +31,27 @@
     color: @dark;
   }
 }
+
+//------------Tablet-----------
+@media @tablet {
+  .address {
+    justify-content: center;
+  }
+}
+
+//-----------Mobile-320--------
+@media @mobile-320 {
+  .address {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+  
+  .address__part:last-of-type {
+    max-width: 60%;
+  }
+  
+  .address__part:first-of-type {
+    padding-right: 20px;
+  }
+}

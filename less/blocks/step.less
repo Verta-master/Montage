@@ -55,3 +55,46 @@
   flex-wrap: wrap;
   height: 1830px;
 }
+
+//------------Tablet-----------
+@media @tablet {
+  .step__wrap {
+    height: auto;
+  }
+  
+  .step__img {
+    display: none;
+  }
+  
+  .step__block {
+    width: 100%;
+    margin-bottom: 20px;
+    
+    &:first-of-type {
+      order: 1;
+    }
+    
+    &:nth-of-type(2) {
+      order: 3;
+    }
+    
+    &:nth-of-type(3) {
+      order: 5;
+    }
+    
+    &:nth-of-type(4) {
+      order: 2;
+    }
+    
+    &:nth-of-type(5) {
+      order: 4;
+    }
+  }
+}
+
+//-----------Mobile-320--------
+@media @mobile-320 {
+  .step__block {
+    padding: 10px;
+  }
+}

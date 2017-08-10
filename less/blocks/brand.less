@@ -4,3 +4,28 @@
   align-items: center;
   margin-top: 50px;
 }
+
+//------------Tablet-----------
+@media @tablet {
+  .brand__img:nth-child(n+9) {
+    display: none;
+  }
+}
+
+//-----------Mobile-480--------
+@media @mobile {
+  .brand__img:nth-child(n+6) {
+    display: none;
+  }
+}
+
+//-----------Mobile-320--------
+@media @mobile-320 {
+  .brand {
+    margin-top: 20px;
+  }
+  
+  .brand__img:nth-child(n+4) {
+    display: none;
+  }
+}
