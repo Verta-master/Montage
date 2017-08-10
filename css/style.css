@@ -1136,90 +1136,90 @@ textarea {
     width: 280px !important;
   }
   .promo__h1 {
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 24px !important;
+    line-height: 36px !important;
   }
   .btn--step {
-    max-height: none;
+    max-height: none!important;
   }
   .wrapper {
-    width: 280px;
+    width: 280px !important;
   }
   .title-h2 {
-    font-size: 24px;
-    line-height: 36px;
-    padding-left: 10px;
+    font-size: 24px!important;
+    line-height: 36px!important;
+    padding-left: 10px!important;
   }
   .why__item {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 0;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+    padding-bottom: 0!important;
   }
   .why__bottom {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+    padding-bottom: 20px!important;
   }
   .title-h4 {
-    margin: 15px 0;
+    margin: 15px 0!important;
   }
   .brand {
-    margin-top: 20px;
+    margin-top: 20px!important;
   }
   .brand__img:nth-child(n+4) {
-    display: none;
+    display: none!important;
   }
   .key__block {
-    padding: 10px;
+    padding: 10px!important;
   }
   .key__img {
-    width: 280px;
-    height: auto;
+    width: 280px!important;
+    height: auto!important;
   }
   .key__num {
-    max-width: 245px;
+    max-width: 245px!important;
   }
   .title-h3 {
-    font-size: 18px;
+    font-size: 18px!important;
   }
   .step__block {
-    padding: 10px;
+    padding: 10px!important;
   }
   .benefits__title {
-    padding-left: 0;
-    padding-right: 0;
-    text-align: center;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    text-align: center!important;
   }
   .benefits__item {
-    padding: 5px 10px;
+    padding: 5px 10px!important;
   }
   .map {
-    max-height: 250px;
+    max-height: 250px!important;
   }
   .address {
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 20px;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    padding-bottom: 20px!important;
   }
   .address__part:last-of-type {
-    max-width: 60%;
+    max-width: 60%!important;
   }
   .address__part:first-of-type {
-    padding-right: 20px;
+    padding-right: 20px!important;
   }
   .feedback {
-    padding: 10px;
-    padding-top: 30px;
+    padding: 10px!important;
+    padding-top: 30px!important;
   }
   .feedback__form {
-    width: 100%;
+    width: 100%!important;
   }
   .footer__wrap {
-    width: 280px;
+    width: 280px !important;
   }
   .modal {
-    width: 250px;
-    padding: 10px;
+    width: 250px!important;
+    padding: 10px!important;
   }
 }
 @media (max-width: 1025px) {
