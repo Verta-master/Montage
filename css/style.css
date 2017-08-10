@@ -1132,6 +1132,13 @@ textarea {
   .header {
     min-height: 70px;
   }
+  .promo__wrap {
+    width: 280px !important;
+  }
+  .promo__h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
   .btn--step {
     max-height: none;
   }
@@ -1215,13 +1222,16 @@ textarea {
     padding: 10px;
   }
 }
-@media (max-width: 1025px) {
+@media (max-width: 1025px) and (min-width: 768px) {
   .promo__wrap {
     height: 600px;
     width: 728px;
   }
   .promo__img img {
     height: 600px;
+  }
+  .wrapper {
+    width: 728px;
   }
   .title-h2 {
     margin-top: 50px;
@@ -1366,12 +1376,15 @@ textarea {
     margin-top: 30px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 767px) and (min-width: 480px) {
   .promo__h1 {
     width: 100%;
     font-size: 32px;
   }
   .promo__wrap {
+    width: 440px;
+  }
+  .wrapper {
     width: 440px;
   }
   .title-h2 {
@@ -1447,24 +1460,5 @@ textarea {
   }
   .footer__input:checked ~ .footer__label::after {
     transform: rotate(180deg);
-  }
-}
-@media (max-width: 479px) and (max-device-width: 479px) {
-  .promo__wrap {
-    width: 280px !important;
-  }
-  .promo__h1 {
-    font-size: 24px;
-    line-height: 36px;
-  }
-}
-@media (max-width: 1025px) and (min-width: 768px) {
-  .wrapper {
-    width: 728px;
-  }
-}
-@media (max-width: 767px) and (min-width: 480px) {
-  .wrapper {
-    width: 440px;
   }
 }
