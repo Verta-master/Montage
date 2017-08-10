@@ -49,7 +49,7 @@
 }
 
 //------------Tablet-----------
-@media @tablet {
+@media @tablet and (min-width: 768px) {
   .promo__wrap {
     height: 600px;
     width: @max-tablet;
@@ -61,7 +61,7 @@
 }
 
 //-----------Mobile-480--------
-@media @mobile {
+@media @mobile and (min-width: 480px) {
   .promo__h1 {
     width: 100%;
     font-size: 32px;
@@ -73,7 +73,7 @@
 }
 
 //-----------Mobile-320--------
-@media @mobile-320 and (max-device-width: 479px) {
+@media @mobile-320 {
   .promo__wrap {
     width: @max-320 !important;
   }
