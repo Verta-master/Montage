@@ -4,21 +4,21 @@
 }
 
 //------------Tablet-----------
-@media @tablet {
+@media @tablet and (min-width: 768px) {
   .wrapper {
     width: @max-tablet;
   }
 }
 
 //-----------Mobile-480--------
-@media @mobile {
+@media @mobile and (min-width: 480px) {
   .wrapper {
     width: @max-mobile;
   }
 }
 
 //-----------Mobile-320--------
-@media @mobile-320 and (max-device-width: 479px) {
+@media @mobile-320 {
   .wrapper {
     width: @max-320;
   }
