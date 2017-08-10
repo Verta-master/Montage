@@ -1135,6 +1135,9 @@ textarea {
   .btn--step {
     max-height: none;
   }
+  .wrapper {
+    width: 280px;
+  }
   .title-h2 {
     font-size: 24px;
     line-height: 36px;
@@ -1219,9 +1222,6 @@ textarea {
   }
   .promo__img img {
     height: 600px;
-  }
-  .wrapper {
-    width: 728px;
   }
   .title-h2 {
     margin-top: 50px;
@@ -1374,9 +1374,6 @@ textarea {
   .promo__wrap {
     width: 440px;
   }
-  .wrapper {
-    width: 440px;
-  }
   .title-h2 {
     font-size: 32px;
     line-height: 40px;
@@ -1460,7 +1457,14 @@ textarea {
     font-size: 24px;
     line-height: 36px;
   }
+}
+@media (max-width: 1025px) and (min-width: 768px) {
   .wrapper {
-    width: 280px;
+    width: 728px;
+  }
+}
+@media (max-width: 767px) and (min-width: 480px) {
+  .wrapper {
+    width: 440px;
   }
 }
