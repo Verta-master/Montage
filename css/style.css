@@ -431,10 +431,14 @@ textarea {
 .promo {
   width: 100%;
   background-color: #cacaca;
-  background-image: url(../img/image-background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  position: relative;
+}
+.promo__img {
+  opacity: 0.2;
+}
+.promo__img img {
+  width: 100%;
+  height: 800px;
 }
 .promo__wrap {
   width: 1230px;
@@ -449,6 +453,10 @@ textarea {
       justify-content: center;
   -ms-flex-align: start;
       align-items: flex-start;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
 }
 .promo__h1 {
   width: 600px;
@@ -521,6 +529,7 @@ textarea {
   color: #fff;
   padding-left: 28px;
   padding-right: 28px;
+  transition: ease-out 0.5s;
 }
 .btn--blue:hover {
   background-color: #095b99;
@@ -980,6 +989,8 @@ textarea {
 .footer__link:hover {
   color: #fff;
 }
+.footer__input,
+.footer__label,
 .footer__text--hidden,
 .footer__text--contacts {
   display: none;
@@ -1198,9 +1209,11 @@ textarea {
     padding-right: 20px;
   }
   .feedback {
-    width: 100%;
     padding: 10px;
     padding-top: 30px;
+  }
+  .feedback__form {
+    width: 100%;
   }
   .footer__wrap {
     width: 280px;
@@ -1214,6 +1227,9 @@ textarea {
   .promo__wrap {
     height: 600px;
     width: 728px;
+  }
+  .promo__img img {
+    height: 600px;
   }
   .wrapper {
     width: 728px;
@@ -1231,7 +1247,7 @@ textarea {
   .why__list::before {
     content: "";
     position: absolute;
-    top: 50%;
+    top: 59%;
     left: 0;
     width: 100%;
     height: 1px;
@@ -1239,6 +1255,9 @@ textarea {
   }
   .why__item {
     width: 50%;
+  }
+  .why__item:nth-child(3) {
+    width: 100%;
   }
   .brand__img:nth-child(n+9) {
     display: none;
@@ -1317,14 +1336,12 @@ textarea {
   .map iframe {
     width: 100%;
   }
-  .address {
-    -ms-flex-pack: center;
-        justify-content: center;
-  }
   .feedback {
     padding-bottom: 30px;
-    width: 400px;
-    margin: 0 auto;
+    width: 100%;
+  }
+  .feedback__form {
+    width: 340px;
   }
   .footer {
     padding-bottom: 50px;
@@ -1399,6 +1416,7 @@ textarea {
   }
   .footer__wrap {
     width: 440px;
+    position: relative;
   }
   .footer__wrap--top .footer__item:last-child {
     display: none;
@@ -1406,5 +1424,42 @@ textarea {
   .footer__text--contacts {
     display: block;
     margin-top: 30px;
+  }
+  .footer__label {
+    display: block;
+    cursor: pointer;
+  }
+  .footer__label::before {
+    content: "Развернуть";
+    position: absolute;
+    bottom: -30px;
+    left: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 10px;
+  }
+  .footer__label::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 140px;
+    width: 16px;
+    height: 7px;
+    background-image: url(../img/icons-arrow-down.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .footer__input:not(checked) ~ .footer__item {
+    display: none;
+  }
+  .footer__input:checked ~ .footer__item {
+    display: block;
+  }
+  .footer__input:checked ~ .footer__label::before {
+    content: "Свернуть";
+  }
+  .footer__input:checked ~ .footer__label::after {
+    transform: rotate(180deg);
   }
 }
