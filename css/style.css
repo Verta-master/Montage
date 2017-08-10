@@ -1128,7 +1128,7 @@ textarea {
   background-repeat: no-repeat;
   background-position: center;
 }
-@media (max-width: 479px) {
+@media (max-width: 479px) and (min-width: 0) {
   .header {
     min-height: 70px;
   }
