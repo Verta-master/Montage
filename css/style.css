@@ -1128,7 +1128,7 @@ textarea {
   background-repeat: no-repeat;
   background-position: center;
 }
-@media (max-width: 479px) and (min-width: 0) {
+@media (max-width: 479px) {
   .header {
     min-height: 70px;
   }
@@ -1222,7 +1222,7 @@ textarea {
     padding: 10px;
   }
 }
-@media (max-width: 1025px) and (min-width: 768px) {
+@media (max-width: 1025px) {
   .promo__wrap {
     height: 600px;
     width: 728px;
@@ -1376,7 +1376,7 @@ textarea {
     margin-top: 30px;
   }
 }
-@media (max-width: 767px) and (min-width: 480px) {
+@media (max-width: 767px) {
   .promo__h1 {
     width: 100%;
     font-size: 32px;
