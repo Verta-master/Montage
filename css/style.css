@@ -1132,19 +1132,8 @@ textarea {
   .header {
     min-height: 70px;
   }
-  .promo__wrap {
-    width: 280px;
-    padding-left: 0;
-  }
-  .promo__h1 {
-    font-size: 24px;
-    line-height: 36px;
-  }
   .btn--step {
     max-height: none;
-  }
-  .wrapper {
-    width: 280px;
   }
   .title-h2 {
     font-size: 24px;
@@ -1461,5 +1450,17 @@ textarea {
   }
   .footer__input:checked ~ .footer__label::after {
     transform: rotate(180deg);
+  }
+}
+@media (max-width: 479px) and (max-device-width: 479px) {
+  .promo__wrap {
+    width: 280px !important;
+  }
+  .promo__h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .wrapper {
+    width: 280px;
   }
 }
