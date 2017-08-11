@@ -1315,11 +1315,11 @@ textarea {
   .footer__label::after {
     content: "";
     position: absolute;
-    bottom: -25px;
-    left: 140px;
-    width: 16px;
-    height: 7px;
-    background-image: url(../img/icons-arrow-down.svg);
+    bottom: -33px;
+    left: 120px;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/ic_keyboard_arrow_down.svg);
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -1390,7 +1390,7 @@ textarea {
     padding: 5px 10px;
   }
   .brand {
-    margin-top: 20px;
+    margin-top: 30px;
   }
   .brand__img:nth-child(n+4) {
     display: none;
@@ -1406,7 +1406,7 @@ textarea {
     width: 100%;
   }
   .footer__wrap {
-    width: 280px;
+    width: 320px;
   }
   .header {
     min-height: 70px;
@@ -1415,11 +1415,11 @@ textarea {
     padding: 10px;
   }
   .key__img {
-    width: 280px;
+    width: 320px;
     height: auto;
   }
   .key__num {
-    max-width: 245px;
+    max-width: 300px;
   }
   .map {
     max-height: 250px;
@@ -1428,8 +1428,17 @@ textarea {
     width: 250px;
     padding: 10px;
   }
+  .modal__close {
+    top: -30px;
+    right: 30px;
+  }
+  .modal__title {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
   .promo__wrap {
-    width: 280px;
+    width: 320px;
+    padding-left: 0;
   }
   .promo__h1 {
     font-size: 24px;
@@ -1458,6 +1467,25 @@ textarea {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 20px;
+  }
+  .wrapper {
+    width: 320px;
+  }
+}
+@media (max-width: 359px) {
+  .footer__wrap {
+    width: 280px;
+  }
+  .key__img {
+    width: 280px;
+    height: auto;
+  }
+  .key__num {
+    max-width: 245px;
+  }
+  .promo__wrap {
+    width: 280px;
+    padding-left: 0;
   }
   .wrapper {
     width: 280px;
