@@ -49,6 +49,18 @@ input {
   font-size: 13px;
   line-height: 1.2;
 }
+input::-webkit-input-placeholder {
+  font-size: 13px;
+  line-height: 1.2;
+}
+input:-ms-input-placeholder {
+  font-size: 13px;
+  line-height: 1.2;
+}
+input::placeholder {
+  font-size: 13px;
+  line-height: 1.2;
+}
 a {
   text-decoration: none;
 }
