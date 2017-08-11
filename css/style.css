@@ -940,6 +940,9 @@ textarea {
   padding-bottom: 110px;
   background-color: #32383e;
 }
+.footer__logo {
+  height: 50px;
+}
 .footer__top {
   width: 100%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
@@ -1013,6 +1016,7 @@ textarea {
 }
 .logo {
   display: block;
+  transform: scale(1.4);
 }
 .arcticmodal-overlay,
 .arcticmodal-container {
